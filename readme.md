@@ -12,7 +12,8 @@ This is a simple Ecommerce Web Application using php (Laravel) as backend and Vu
 It Also use single action classes inspired by this article https://medium.com/@remi_collin/keeping-your-laravel-applications-dry-with-single-action-classes-6a950ec54d1d
 
 <hr/>
-### How to Setup
+
+## How to Setup
 <ul>
     <li>Copy .env.example file to .env and edit database,paypal and passport credentials</li>
 <li>Run composer install</li>
