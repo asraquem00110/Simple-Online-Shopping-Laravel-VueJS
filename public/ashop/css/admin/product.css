@@ -1,0 +1,46 @@
+/*Created by Alvin S. Raquem
+2019*/
+
+@media (max-width: 800px) and (min-width: 200px){
+[class *= "grid-col"]{
+grid-column: span 12;
+}
+
+/*.grid-container {
+grid-template-columns: auto;
+}*/
+}
+
+
+@media (min-width: 800px){
+/*[class *= "grid-col-4"]{
+grid-column: span 6;
+}*/
+
+.grid-col-4 , .grid-col-3 {
+grid-column: span 6;
+}
+}
+
+@media (min-width: 950px){
+.grid-col-4 {
+grid-column: span 4;
+}
+
+.grid-col-3 {
+grid-column: span 3;
+}
+}
+
+.categoryname {
+font-size: 16pt;
+}
+
+.productcount {
+float: right;
+}
+
+.productlink {
+text-decoration: none;
+color: dimgray;
+}

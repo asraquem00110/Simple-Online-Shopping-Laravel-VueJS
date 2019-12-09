@@ -1,0 +1,179 @@
+#productinfo {
+display: grid;
+grid-template-columns: repeat(2,50%);
+padding: 10pt 50pt;
+background: transparent;
+/*	margin-top: 90px;*/	
+width: 100%;
+box-sizing: border-box;
+grid-column-gap: 10pt;
+overflow: hidden;
+}
+
+#productinfo div {
+height: 520px;
+background: transparent;
+
+}
+
+
+#productimages img {
+width:100%; 
+max-height:400px;
+margin:auto;
+display:block;
+}
+
+#miniimages {
+margin: 0pt 30pt;
+}
+
+.mini {
+background: black;
+height: 200px;
+padding: 10pt;
+box-sizing: border-box;
+}
+
+.mini img {
+height: 80px;
+max-width: 100%;
+}
+
+
+@media (max-width: 850px){
+#productinfo {
+grid-template-columns: auto;
+}
+
+.grid-col-2 {
+grid-column: span 6;
+}
+
+}
+
+@media (max-width: 450px){
+.grid-col-2 {
+grid-column: span 12;
+}
+}
+
+#productname {
+color: #DDA765;
+font-size: 30pt;
+font-weight: bold;
+margin: 2pt;
+}
+
+#price {
+color: red;
+font-weight: bold;
+font-size: 20pt;
+margin: 2pt;
+}
+
+#descriptionheader {
+color: dimgray;
+font-weight: bold;
+font-size: 14pt;
+margin-left: 2pt;
+margin-top: 10pt;
+}
+
+#descriptiondetails {
+color: dimgray;
+margin-left: 10pt;
+}
+
+#quantity {
+padding: 10pt;
+width: 50px;
+margin: 10pt;
+font-size: 14pt;
+border-radius: 10px;
+}
+
+#addtocart {
+height: 52px;
+border-radius: 10px;
+background: #DDA765;
+color: white;
+cursor: pointer;
+border: none;
+}
+
+#quantity:focus , #addtocart:focus{
+outline: none;
+}
+
+div.imagefeature {
+background: transparent;
+height: 130px;
+width: 100%;
+border: none;
+box-shadow: none;
+top: 0;
+left: 0;
+position: static;
+text-align: center;
+overflow: hidden;
+}
+
+div.imagefeature img {
+width:80%; 
+max-height:100%;
+margin:auto;
+display:block;
+}
+
+#relatedtext {
+margin-left: 30pt;
+font-weight: bold;
+font-size: 24pt;
+}
+
+#relateddiv {
+padding-top: 20pt;
+}
+
+div#relateditems div button {
+width: 100%;
+padding: 8pt;
+font-size: 8pt;
+margin-right: 5pt;
+left: 0;
+border: none;
+color: black;
+background: transparent;
+cursor: pointer;
+text-align: left;
+
+}
+
+div#relateditems div span {
+text-align: justify;
+font-size: 10pt;
+font-weight: italic;
+font-family: sans-serif;
+color: maroon;
+margin:0 0 10pt 0;
+display: block;
+}
+
+div#relateditems div p {
+text-align: justify;
+font-size: 12pt;
+font-weight: italic;
+font-family: sans-serif;
+margin:10pt 0 5pt 0;
+}
+
+div#relateditems {
+padding: 20pt;
+margin: 0pt 10pt;
+box-sizing:border-box;
+-webkit-box-sizing:border-box;	
+}
+
+
+

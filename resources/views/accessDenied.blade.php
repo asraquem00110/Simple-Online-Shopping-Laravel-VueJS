@@ -1,0 +1,1 @@
+<a href="/admin/login">login page</a>
