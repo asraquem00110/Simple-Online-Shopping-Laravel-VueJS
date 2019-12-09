@@ -12,7 +12,7 @@
     <li>Copy .env.example file to .env and edit database,paypal and passport credentials</li>
 <li>Run composer install</li>
 <li>Run php artisan key:generate</li>
-<li>Run php artisan migrate</li>
+<li>Run php artisan migrate/import ashop.sql</li>
 <li>Run php artisan passport:install</li>
 <li>Run npm install</li>
 <li>Run npm run dev</li>
