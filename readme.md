@@ -8,12 +8,13 @@
 </p>
 
 ## How to Setup
-
-Copy .env.example file to .env and edit database,paypal and passport credentials
-Run composer install
-Run php artisan key:generate
-Run php artisan migrate
-Run php artisan passport:install
-Run npm install
-Run npm run dev
+<ul>
+    <li>Copy .env.example file to .env and edit database,paypal and passport credentials</li>
+<li>Run composer install</li>
+<li>Run php artisan key:generate</li>
+<li>Run php artisan migrate</li>
+<li>Run php artisan passport:install</li>
+<li>Run npm install</li>
+<li>Run npm run dev</li>
+</ul>
 
