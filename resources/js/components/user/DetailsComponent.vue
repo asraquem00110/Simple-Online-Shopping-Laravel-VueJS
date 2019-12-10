@@ -169,7 +169,7 @@
 			},
 			setDate: function(rawdate){
 				let newDate = new Date(rawdate)
-				return `${this.monthNames[newDate.getMonth()-1]} ${newDate.getDay()}, ${newDate.getFullYear()}`
+				return `${this.monthNames[newDate.getMonth()]} ${newDate.getDate()}, ${newDate.getFullYear()}`
 			},
 			checkstatus: function(status){
 				this.statusStyle.color = status == 0 ? 'maroon' : 'green'
