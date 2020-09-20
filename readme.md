@@ -8,7 +8,7 @@
 </p>
 
 ## Short Description
-This is a simple Ecommerce Web Application using php (Laravel) as backend and Vue js for front end. <br/>
+This is a simple Online Shopping Web Application using php (Laravel) as backend and Vue js for front end. <br/>
 It Also use single action classes inspired by this article https://medium.com/@remi_collin/keeping-your-laravel-applications-dry-with-single-action-classes-6a950ec54d1d
 
 <hr/>
