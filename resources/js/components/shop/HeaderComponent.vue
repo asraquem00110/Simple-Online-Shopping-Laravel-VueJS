@@ -4,7 +4,7 @@
 		<signupmodal v-if="modal.signup" @removemodal="closeModal"></signupmodal>
 
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="background: rgba(0,0,0,0.7) !important;">
-  <a class="navbar-brand" href="javascript:void(0)" @click="gotodashboard()"><img :src="`${imgUrl}LOGOsample.png`" height="60px" width="100px" /></a>
+  <a class="navbar-brand" href="javascript:void(0)" @click="gotodashboard()"><img src="http://ashopping.herokuapp.com/upload/LOGOsample.png" height="60px" width="100px" /></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
