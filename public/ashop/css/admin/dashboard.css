@@ -1,0 +1,66 @@
+/*Created by Alvin S. Raquem
+2019*/
+
+@media (max-width: 800px) and (min-width: 200px){
+[class *= "grid-col"]{
+grid-column: span 12;
+}
+
+/*.grid-container {
+grid-template-columns: auto;
+}*/
+}
+
+
+@media (min-width: 800px){
+/*[class *= "grid-col-4"]{
+grid-column: span 6;
+}*/
+
+.grid-col-4 , .grid-col-3 {
+grid-column: span 6;
+}
+}
+
+@media (min-width: 950px){
+.grid-col-4 {
+grid-column: span 4;
+}
+
+.grid-col-3 {
+grid-column: span 3;
+}
+}
+
+.slideshowimagediv {
+display: block;
+position: relative;
+}
+
+.slideshowimagediv span {
+position: absolute;
+right: 2pt;
+top: 2pt;
+color: white;
+cursor: pointer;
+}
+
+.dashboard-item {
+margin-left: 20px;
+font-weight: bold;
+font-size: 18pt;
+position: absolute;
+top: 15pt;
+}
+
+.dashboard-item-count {
+position: absolute;
+top: 42px;
+right: 5px;
+font-weight: bold;
+font-size: 20pt;
+}
+
+.otherdash {
+color: dimgray;
+}
