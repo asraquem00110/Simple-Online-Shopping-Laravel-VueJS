@@ -24,7 +24,8 @@ export default new Vuex.Store({
 		//email: localStorage.getItem('email') ? localStorage.getItem('email') : '',
 		//id: localStorage.getItem('id') ? localStorage.getItem('id') : 0,
 		//img: localStorage.getItem('img') ? localStorage.getItem('img') : '',
-		imgUrl: "http://ashopping.herokuapp.com/upload/",
+// 		imgUrl: "http://ashopping.herokuapp.com/upload/",
+        imgUrl: "http://localhost:8000/upload/",
 	},
 	getters: {
 		getToken: function(state,getter){
