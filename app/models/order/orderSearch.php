@@ -3,6 +3,7 @@
 namespace App\models\order;
 
 use App\models\order\order;
+use Auth;
 
 Class orderSearch {
 
@@ -11,7 +12,7 @@ Class orderSearch {
 	}
 
 	public function execute($orderID){
-		$orders = order::with(['product','user'])->where('id','LIKE',$orderID."%")->paginate(10);
+		$orders = order::with(['product','user'])->where('id','LIKE',$orderID."%")->where('user_id',Auth::User()->id)->paginate(10);
 		return $orders;
 
 	}
